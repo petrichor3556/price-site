@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Боты и сайты — прайс</title>
+  <meta name="description" content="Разработка Telegram-ботов, лендингов и сайтов. Заявки с сайта приходят в Telegram. Фиксированные цены, понятные сроки, запуск под ключ." />
+  <meta name="theme-color" content="#012624" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="В начало">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <circle cx="9" cy="14" r="5" stroke="#fff" stroke-width="1.5"/>
+        <circle cx="19" cy="14" r="5" stroke="#fff" stroke-width="1.5"/>
+      </svg>
+      <span>Боты и сайты</span>
+    </a>
+    <nav class="nav-links" aria-label="Основная навигация">
+      <a href="#bots">Боты</a>
+      <a href="#sites">Сайты</a>
+      <a href="#bundles">Комплекты</a>
+      <a href="#extra">Дополнительно</a>
+      <a href="#terms">Условия</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="#contact" data-contact>Написать</a>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <canvas id="sphere" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="label">Разработка · Telegram · Сайты</p>
+        <h1>Боты и сайты, которые приводят клиентов</h1>
+        <p class="lead">Делаю Telegram-ботов, лендинги и сайты. Заявки с сайта приходят прямо в ваш Telegram. Фиксированные цены, понятные сроки, запуск под ключ.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact" data-contact>Обсудить задачу</a>
+          <a class="btn btn-ghost" href="#bots">Смотреть прайс</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats band">
+      <div class="wrap stats-grid">
+        <div class="stat">
+          <div class="stat-num">2 дня</div>
+          <div class="stat-label">на запуск простого бота</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">50%</div>
+          <div class="stat-label">предоплата, остальное после сдачи</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2 круга</div>
+          <div class="stat-label">правок входят в цену</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bots">
+      <div class="wrap">
+        <p class="label">01 · Telegram-боты</p>
+        <h2>Боты</h2>
+        <p class="section-lead">Бот работает на сервере круглосуточно и сам перезапускается при сбое. Админка прямо в Telegram: меняете тексты и кнопки без разработчика.</p>
+        <div class="grid grid-4">
+
+          <article class="card">
+            <p class="label">Старт</p>
+            <h3>Бот-визитка</h3>
+            <p class="price">5–8 тыс. ₽</p>
+            <p class="meta">2–3 дня</p>
+            <ul class="list">
+              <li>Меню с кнопками</li>
+              <li>Ответы на частые вопросы</li>
+              <li>Заявки пересылаются вам</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: бот-визитка">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Стандарт</p>
+            <h3>Бот с админкой</h3>
+            <p class="price">12–20 тыс. ₽</p>
+            <p class="meta">4–7 дней</p>
+            <ul class="list">
+              <li>Всё из пакета «Старт»</li>
+              <li>Админка в боте</li>
+              <li>База данных и статистика</li>
+              <li>Рассылка и несколько админов</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: бот с админкой">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Бизнес</p>
+            <h3>Бот под задачу</h3>
+            <p class="price">25–50 тыс. ₽</p>
+            <p class="meta">1–3 недели</p>
+            <ul class="list">
+              <li>Каталог или запись клиентов</li>
+              <li>Оплата (ЮKassa и другие)</li>
+              <li>Роли и уведомления</li>
+              <li>Интеграции с сервисами</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: бот под задачу">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Для каналов</p>
+            <h3>Бот для сети каналов</h3>
+            <p class="price">10–20 тыс. ₽</p>
+            <p class="meta">3–6 дней</p>
+            <ul class="list">
+              <li>Приём заявок в канал</li>
+              <li>Личное сообщение со списком ваших каналов</li>
+              <li>Автоодобрение по таймеру</li>
+              <li>Админка и статистика</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: бот для сети каналов">↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section recessed" id="sites">
+      <div class="wrap">
+        <p class="label">02 · Сайты</p>
+        <h2>Сайты</h2>
+        <p class="section-lead">Адаптивная вёрстка под телефон и компьютер, быстрая загрузка, форма заявки. Размещение на вашем домене.</p>
+        <div class="grid grid-4">
+
+          <article class="card">
+            <p class="label">Лендинг</p>
+            <h3>Одна страница</h3>
+            <p class="price">8–15 тыс. ₽</p>
+            <p class="meta">3–5 дней</p>
+            <ul class="list">
+              <li>Адаптив под телефон</li>
+              <li>Форма заявки</li>
+              <li>Подключение домена</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: лендинг">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Визитка</p>
+            <h3>Сайт на 3–6 страниц</h3>
+            <p class="price">20–35 тыс. ₽</p>
+            <p class="meta">1–2 недели</p>
+            <ul class="list">
+              <li>Несколько страниц и меню</li>
+              <li>Форма и контакты</li>
+              <li>Базовое SEO</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: сайт-визитку">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Магазин</p>
+            <h3>Каталог и корзина</h3>
+            <p class="price">40–80 тыс. ₽</p>
+            <p class="meta">2–4 недели</p>
+            <ul class="list">
+              <li>Каталог товаров</li>
+              <li>Корзина, заявки или оплата</li>
+              <li>Админка для товаров</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: магазин">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Mini App</p>
+            <h3>Приложение в Telegram</h3>
+            <p class="price">30–70 тыс. ₽</p>
+            <p class="meta">2–4 недели</p>
+            <ul class="list">
+              <li>Витрина или запись внутри Telegram</li>
+              <li>Связка с ботом</li>
+              <li>Оплата и уведомления</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: мини-приложение">↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bundles">
+      <div class="wrap">
+        <p class="label">03 · Комплекты</p>
+        <h2>Комплекты</h2>
+        <p class="section-lead">Сайт и бот вместе обходятся дешевле, чем по отдельности, и работают как одна система: заявка с сайта сразу попадает в Telegram.</p>
+        <div class="grid grid-4">
+
+          <article class="card">
+            <p class="label">Сайт + бот</p>
+            <h3>Сайт и заявки в Telegram</h3>
+            <p class="price">18–30 тыс. ₽</p>
+            <p class="meta">1–2 недели</p>
+            <ul class="list">
+              <li>Лендинг</li>
+              <li>Заявки приходят в чат или бота</li>
+              <li>Статистика заявок</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: сайт и заявки в Telegram">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Под ключ</p>
+            <h3>Сайт, бот, запуск</h3>
+            <p class="price">35–60 тыс. ₽</p>
+            <p class="meta">2–3 недели</p>
+            <ul class="list">
+              <li>Сайт и бот с админкой</li>
+              <li>Установка на сервер</li>
+              <li>Инструкция</li>
+              <li>1 месяц поддержки</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: комплект под ключ">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">Автоматизация</p>
+            <h3>Связка сервисов</h3>
+            <p class="price">от 15 тыс. ₽</p>
+            <p class="meta">по задаче</p>
+            <ul class="list">
+              <li>Google-таблицы, CRM, оплата</li>
+              <li>Уведомления в Telegram</li>
+              <li>Меньше ручной работы</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: автоматизацию">↗</a>
+          </article>
+
+          <article class="card">
+            <p class="label">ИИ</p>
+            <h3>ИИ-помощник</h3>
+            <p class="price">от 15–20 тыс. ₽</p>
+            <p class="meta">по задаче</p>
+            <ul class="list">
+              <li>Отвечает клиентам по вашей базе знаний</li>
+              <li>Работает в боте или на сайте</li>
+              <li>Передаёт сложные вопросы вам</li>
+            </ul>
+            <a class="arrow" href="#contact" data-contact aria-label="Заказать: ИИ-помощника">↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section recessed" id="extra">
+      <div class="wrap narrow-2col">
+        <div>
+          <p class="label">04 · Дополнительно</p>
+          <h2>Дополнительно</h2>
+          <p class="section-lead">Услуги, которые добавляются к любому пакету.</p>
+          <svg class="molecule" viewBox="0 0 320 200" fill="none" aria-hidden="true">
+            <g stroke="#bbc7c6" stroke-width="1" opacity="0.55">
+              <line x1="60" y1="100" x2="140" y2="50"/>
+              <line x1="140" y1="50" x2="230" y2="90"/>
+              <line x1="140" y1="50" x2="170" y2="150"/>
+              <line x1="230" y1="90" x2="170" y2="150"/>
+              <line x1="230" y1="90" x2="280" y2="40"/>
+              <line x1="60" y1="100" x2="90" y2="170"/>
+            </g>
+            <g fill="#fff">
+              <circle cx="60" cy="100" r="9"/>
+              <circle cx="140" cy="50" r="13"/>
+              <circle cx="230" cy="90" r="10"/>
+              <circle cx="170" cy="150" r="15"/>
+              <circle cx="280" cy="40" r="6"/>
+              <circle cx="90" cy="170" r="7"/>
+            </g>
+          </svg>
+        </div>
+        <div class="rows">
+          <div class="row"><span>Домен, хостинг, настройка</span><b>2–3 тыс. ₽</b></div>
+          <div class="row"><span>Правки сверх лимита</span><b>1–1,5 тыс. ₽ / час</b></div>
+          <div class="row"><span>Срочная работа</span><b>+30–50%</b></div>
+          <div class="row"><span>Дизайн по макету клиента</span><b>+20–40%</b></div>
+          <div class="row"><span>Хостинг и поддержка</span><b>1–3 тыс. ₽ / мес.</b></div>
+          <div class="row"><span>Расширенная поддержка с регулярными правками</span><b>5–10 тыс. ₽ / мес.</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="steps">
+      <div class="wrap">
+        <p class="label">05 · Процесс</p>
+        <h2>Как работаем</h2>
+        <div class="grid grid-4">
+          <article class="card">
+            <p class="label">Шаг 1</p>
+            <h3>Обсуждаем задачу</h3>
+            <p class="body">Пишете, что нужно. Я уточняю детали и называю точную стоимость и срок.</p>
+          </article>
+          <article class="card">
+            <p class="label">Шаг 2</p>
+            <h3>Предоплата 50%</h3>
+            <p class="body">Фиксируем состав работ и сроки, вы вносите половину суммы.</p>
+          </article>
+          <article class="card">
+            <p class="label">Шаг 3</p>
+            <h3>Делаю и показываю</h3>
+            <p class="body">Короткие итерации: вы видите прогресс и можете вносить правки по ходу.</p>
+          </article>
+          <article class="card">
+            <p class="label">Шаг 4</p>
+            <h3>Запуск и сдача</h3>
+            <p class="body">Ставлю на сервер, передаю доступы и инструкцию, вы оплачиваете остаток.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section recessed" id="terms">
+      <div class="wrap narrow-2col">
+        <div>
+          <p class="label">06 · Условия</p>
+          <h2>Условия</h2>
+          <p class="section-lead">Цены ориентировочные. Точная стоимость называется после обсуждения задачи.</p>
+        </div>
+        <ul class="terms">
+          <li>Предоплата 50%, остальное после сдачи.</li>
+          <li>В цену входят 2 круга правок.</li>
+          <li>Исходный код передаётся после полной оплаты, либо проект работает на моём сервере как услуга.</li>
+          <li>Не входят: домен, платные сервисы (оплата, нейросети), токен бота.</li>
+          <li>Срочная работа и дизайн по макету оплачиваются отдельно.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta" id="contact">
+      <div class="wrap center">
+        <p class="label">Связаться</p>
+        <h2>Расскажите о задаче</h2>
+        <p class="section-lead">Отвечу в течение дня и назову точную стоимость.</p>
+        <a class="btn btn-primary" href="#contact" data-contact>Написать в Telegram</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>Боты и сайты</span>
+      <span class="footer-note">Цены указаны в рублях и носят ориентировочный характер.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
